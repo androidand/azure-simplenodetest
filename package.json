@@ -4,7 +4,8 @@
   "description": "En enkel app för att testa Azure deploy istället för Keystone.js sylvanblog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,13 @@
   },
   "author": "Andreas",
   "license": "ISC",
+  "engines": {
+    "node": ">=9.4.0"
+  },
   "dependencies": {
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0"
   }
 }
