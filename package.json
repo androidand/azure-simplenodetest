@@ -1,27 +1,18 @@
 {
-  "name": "sylvanblog",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {
-    "keystone": "4.0.0-beta.5",
-    "lodash": "^4.13.1",
-    "moment": "2.17.1",
-    "cloudinary": "1.7.0",
-    "express-handlebars": "3.0.0",
-    "handlebars": "4.0.6",
-    "node-sass": "4.5.0",
-    "node-sass-middleware": "0.11.0",
-    "dotenv": "4.0.0",
-    "keystone-email": "1.0.5",
-    "async": "2.1.4"
-  },
-  "devDependencies": {
-    "eslint": "3.15.0",
-    "eslint-config-keystone": "3.0.0",
-    "eslint-plugin-react": "^5.1.1"
-  },
+  "name": "azure-simplenodetest",
+  "version": "1.0.0",
+  "description": "En enkel app för att testa Azure deploy istället för Keystone.js sylvanblog",
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "start": "node keystone.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git-codecommit.eu-west-1.amazonaws.com/v1/repos/azure-simplenodetest"
+  },
+  "author": "Andreas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
