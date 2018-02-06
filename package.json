@@ -14,7 +14,7 @@
   "author": "Andreas",
   "license": "ISC",
   "engines": {
-    "node": ">=9.4.0"
+    "node": ">=8.9.4"
   },
   "dependencies": {
     "express": "^4.16.2"
